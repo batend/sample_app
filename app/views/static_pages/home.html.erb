@@ -1,9 +1,16 @@
-<%= provide(:title, 'Home') %>
-<h1>Sample App</h1>
-<p>
-	I love Jing Zhou.
-	To find out how, google "how much can a boy love a girl with all his heart!"
-	<a href="http://google.com">Google This</a>
-	Best,
-		Ben Niu
-</p>
+<div class="center hero-unit">
+	<%= provide(:title, 'Home') %>
+	<h1>Jing&Ben's Sweet Home</h1>
+	<%= link_to image_tag("j&b.jpg", alt: "Rails"), 'http://rubyonrails.org/' %>
+	<h2>
+		I love Jing Zhou.
+		To find out how, google "how much can a boy love a girl with all his heart!"
+		<a href="http://google.com">Love Is Everywhere</a>
+		Best,
+			Ben Niu
+	</h2>
+
+	<%= link_to "Join Now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+
